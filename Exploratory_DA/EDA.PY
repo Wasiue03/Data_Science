@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-df = pd.read_csv('/content/winequality-white.csv', sep=';')
+df = pd.read_csv('Exploratory_DA\winequality-white.csv', sep=';')
 
 numerical_features = df.select_dtypes(include=[np.number]).columns.tolist()
 df[numerical_features].hist(figsize=(12, 8))
