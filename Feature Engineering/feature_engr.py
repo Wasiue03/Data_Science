@@ -75,3 +75,18 @@ wine_data_interacted = pd.concat([df, interaction_terms], axis=1)
 wine_data_interacted.head()
 
 
+
+# Apply one-hot encoding to categorical variables
+df_encoded = pd.get_dummies(df)
+
+df_encoded.head()
+
+from sklearn.preprocessing import LabelEncoder
+
+label_encoder = LabelEncoder()
+
+for column in df.columns:
+    if df[column].dtype == 'object':  # Check if the column contains categorical data
+        df[column] = label_encoder.fit_transform(df[column])
+
+df.head()
