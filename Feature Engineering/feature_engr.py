@@ -87,6 +87,7 @@ label_encoder = LabelEncoder()
 
 for column in df.columns:
     if df[column].dtype == 'object':  # Check if the column contains categorical data
+        
         df[column] = label_encoder.fit_transform(df[column])
 
 df.head()
