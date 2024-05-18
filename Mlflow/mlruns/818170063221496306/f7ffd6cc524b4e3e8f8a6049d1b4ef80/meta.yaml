@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/818170063221496306/f7ffd6cc524b4e3e8f8a6049d1b4ef80/artifacts
+end_time: 1716047223577
+entry_point_name: ''
+experiment_id: '818170063221496306'
+lifecycle_stage: active
+run_id: f7ffd6cc524b4e3e8f8a6049d1b4ef80
+run_name: handsome-shrew-188
+run_uuid: f7ffd6cc524b4e3e8f8a6049d1b4ef80
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716047216345
+status: 3
+tags: []
+user_id: HP
